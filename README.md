@@ -20,9 +20,9 @@ As respostas da IA foram revisadas criticamente e os problemas identificados em 
 
 Os cinco documentos que constituíram o corpus utilizado no NotebookLM estão disponíveis na pasta [`fontes/`](fontes/), permitindo que o procedimento seja reproduzido e seus resultados confrontados. Por se tratar de uma ferramenta de IA generativa, a reprodução do método não pressupõe respostas textualmente idênticas.
 
-📘 [Consultar o Miniguia de Estudo](docs/01-miniguia-estudo-viabilidade-cursos-ti-ead.pdf)
+📘 [Consultar o Miniguia de Estudo](docs/01-miniguia-estudo-viabilidade-cursos-ti-ead.pdf) — inclui a síntese do estudo, glossário e um conjunto de prompts reutilizáveis para apoiar futuras revisões sobre o tema.
 
-🧠 [Consultar a Coleção de Prompts e Cicatrizes](docs/02-colecao-prompts-cicatrizes.pdf)
+🧠 [Consultar a Coleção de Prompts e Cicatrizes](docs/02-colecao-prompts-cicatrizes.pdf) — documenta os Prompts 0–6, os resultados obtidos, problemas identificados e refinamentos realizados durante o processo.
 
 ## 📊 Principais resultados
 
@@ -53,9 +53,11 @@ A triagem documental resultou em três grupos:
 
 O projeto evidenciou que o uso de IA em pesquisa documental exige mais do que a elaboração de bons prompts. Foi necessário separar extração, análise e síntese; distinguir evidências específicas de evidências indiretas; controlar inferências; e evitar que tendências tecnológicas fossem automaticamente convertidas em propostas de cursos.
 
-Os erros e excessos identificados durante o processo foram preservados como parte da metodologia e deram origem às **cicatrizes metodológicas**.
+Os erros e excessos identificados durante o processo foram preservados como parte da metodologia e deram origem às **cicatrizes metodológicas**. A partir dos aprendizados do estudo, também foi elaborado um **conjunto de prompts reutilizáveis** para apoiar futuras atualizações das evidências, auditorias, reavaliações da triagem e novas sínteses.
 
 ➡️ [Consultar os Prompts 0–6 e suas cicatrizes](docs/02-colecao-prompts-cicatrizes.pdf)
+
+➡️ [Consultar os prompts reutilizáveis no Miniguia](docs/01-miniguia-estudo-viabilidade-cursos-ti-ead.pdf)
 
 ## 📁 Estrutura do repositório
 
