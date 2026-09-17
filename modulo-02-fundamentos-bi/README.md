@@ -80,13 +80,13 @@ modulo-02-fundamentos-bi/
 │   ├── pagina-01-visao-geral-vendas.png
 │   ├── pagina-02-vendas-lucro-pais.png
 │   └── pagina-03-analise-geografica.png
-└── presentation/
-    └── relatorio-vendas-power-bi.pptx
+└── export/
+    └── relatorio-vendas-power-bi.pdf
 ```
 
 O relatório completo pode ser baixado em [`dashboard/relatorio-vendas-power-bi.pbix`](dashboard/relatorio-vendas-power-bi.pbix).
 
-A apresentação complementar com as três páginas do relatório está disponível em [`presentation/relatorio-vendas-power-bi.pptx`](presentation/relatorio-vendas-power-bi.pptx).
+A versão exportada com as três páginas do relatório está disponível em [`export/relatorio-vendas-power-bi.pdf`](export/relatorio-vendas-power-bi.pdf).
 
 ## Aprendizados
 
