@@ -1,85 +1,52 @@
-# Viabilidade de Novos Cursos de Graduação EAD em TI
+# Formação Power BI Analyst - DIO
 
-Estudo exploratório apoiado por Inteligência Artificial para identificar áreas da Tecnologia da Informação que apresentam evidências suficientes para avançar para estudos posteriores de viabilidade de novos cursos de graduação EAD.
+Portfólio de projetos desenvolvidos durante a **Formação Power BI Analyst**, oferecida pela [DIO](https://www.dio.me/). O repositório acompanha a evolução da formação, desde o uso de Inteligência Artificial como apoio à análise até a construção, o processamento, a modelagem e a apresentação de dados no Power BI.
 
-## 🎯 Objetivo
+## Objetivo
 
-Analisar tendências recentes do mercado, do trabalho e da formação em Tecnologia da Informação, com apoio de Inteligência Artificial, buscando identificar áreas com potencial para estudos posteriores de viabilidade de novos cursos de graduação EAD.
+Documentar os desafios práticos da formação, as bases utilizadas, as decisões tomadas e os resultados produzidos. Cada módulo possui uma pasta própria e um README específico, permitindo consultar os projetos de forma independente sem perder a visão do percurso completo.
 
-> **Importante:** este estudo não recomenda a implantação de cursos. Os resultados representam uma triagem documental destinada a orientar investigações posteriores.
+## Módulos e projetos
 
-## 🤖 Metodologia
+| Módulo | Tema | Projeto | Situação |
+|---|---|---|---|
+| [01](modulo-01-introducao-ia-agentes/) | Introdução à Inteligência Artificial e Agentes | Estudo exploratório sobre a viabilidade de novos cursos de graduação EAD em TI | Concluído |
+| [02](modulo-02-fundamentos-bi/) | Fundamentos de Business Intelligence | Relatório interativo de vendas desenvolvido no Power BI | Concluído |
+| 03 | Visualização de Dados e Relatórios com Power BI | A definir | Não iniciado |
+| 04 | Processamento de Dados com Power BI | A definir | Não iniciado |
+| 05 | Modelagem de Dados com Power BI | A definir | Não iniciado |
+| 06 | Data Analytics e Storytelling com Power BI | A definir | Não iniciado |
 
-A análise foi realizada com apoio do **NotebookLM** a partir de cinco fontes documentais da **ABES, IPEA, Softex e Sociedade Brasileira de Computação (SBC)**, abrangendo mercado de TI, mercado de trabalho, tendências tecnológicas, competências profissionais e formação superior.
+## Competências desenvolvidas
 
-O processo foi desenvolvido iterativamente por meio dos Prompts 0–6:
+- aplicação de conceitos de Business Intelligence e análise de dados;
+- coleta, transformação e preparação de dados;
+- criação de relatórios interativos no Power BI;
+- seleção e configuração de visualizações;
+- uso de filtros, segmentações, indicadores e navegação;
+- documentação de projetos e organização de portfólio no GitHub;
+- uso crítico de Inteligência Artificial como apoio à pesquisa e à análise.
 
-**Contextualização → Extração → Cruzamento → Auditoria → Triagem → Análise EAD → Síntese**
-
-As respostas da IA foram revisadas criticamente e os problemas identificados em cada etapa foram registrados como **cicatrizes metodológicas**, utilizadas para refinar os prompts seguintes.
-
-Os cinco documentos que constituíram o corpus utilizado no NotebookLM estão disponíveis na pasta [`fontes/`](fontes/), permitindo que o procedimento seja reproduzido e seus resultados confrontados. Por se tratar de uma ferramenta de IA generativa, a reprodução do método não pressupõe respostas textualmente idênticas.
-
-📘 [Consultar o Miniguia de Estudo](docs/01-miniguia-estudo-viabilidade-cursos-ti-ead.pdf) — inclui a síntese do estudo, glossário e um conjunto de prompts reutilizáveis para apoiar futuras revisões sobre o tema.
-
-🧠 [Consultar a Coleção de Prompts e Cicatrizes](docs/02-colecao-prompts-cicatrizes.pdf) — documenta os Prompts 0–6, os resultados obtidos, problemas identificados e refinamentos realizados durante o processo.
-
-## 📊 Principais resultados
-
-A triagem documental resultou em três grupos:
-
-### Categoria A — Áreas que justificam estudos posteriores de viabilidade
-
-- Inteligência Artificial
-- Ciência de Dados
-- Cibersegurança / Segurança da Informação
-- Engenharia de Software
-- Licenciatura em Computação / Formação Docente
-
-### Categoria B — Áreas complementares ou transversais
-
-- Computação em Nuvem
-- Tecnologias Quânticas
-- Computação Sustentável
-
-### Categoria C — Não priorizadas neste conjunto documental
-
-- Sistemas de Informação
-- DevOps
-
-➡️ [Consultar a matriz completa, as evidências, justificativas e limitações no Miniguia](docs/01-miniguia-estudo-viabilidade-cursos-ti-ead.pdf)
-
-## 💡 Principais aprendizados
-
-O projeto evidenciou que o uso de IA em pesquisa documental exige mais do que a elaboração de bons prompts. Foi necessário separar extração, análise e síntese; distinguir evidências específicas de evidências indiretas; controlar inferências; e evitar que tendências tecnológicas fossem automaticamente convertidas em propostas de cursos.
-
-Os erros e excessos identificados durante o processo foram preservados como parte da metodologia e deram origem às **cicatrizes metodológicas**. A partir dos aprendizados do estudo, também foi elaborado um **conjunto de prompts reutilizáveis** para apoiar futuras atualizações das evidências, auditorias, reavaliações da triagem e novas sínteses.
-
-➡️ [Consultar os Prompts 0–6 e suas cicatrizes](docs/02-colecao-prompts-cicatrizes.pdf)
-
-➡️ [Consultar os prompts reutilizáveis no Miniguia](docs/01-miniguia-estudo-viabilidade-cursos-ti-ead.pdf)
-
-## 📁 Estrutura do repositório
+## Estrutura do repositório
 
 ```text
 FirstSteps_PowerBI_DIO/
-│
 ├── README.md
-├── docs/
-│   ├── 01-miniguia-estudo-viabilidade-cursos-ti-ead.pdf
-│   └── 02-colecao-prompts-cicatrizes.pdf
-│
-└── fontes/
-    ├── 01-abes-mercado-brasileiro-software-2026.pdf
-    ├── 02-ipea-mercado-trabalho-2026.pdf
-    ├── 03-softex-industria-software-servicos-tic-2025.pdf
-    ├── 04-sbc-grandes-desafios-computacao-2025-2035.pdf
-    └── 05-sbc-grandes-desafios-educacao-computacao-2025-2035.pdf
+├── modulo-01-introducao-ia-agentes/
+│   ├── README.md
+│   ├── docs/
+│   └── fontes/
+└── modulo-02-fundamentos-bi/
+    ├── README.md
+    ├── dashboard/
+    ├── data/
+    └── images/
 ```
 
-As fontes, seus papéis no estudo e as respectivas referências bibliográficas estão documentados no [Miniguia de Estudo](docs/01-miniguia-estudo-viabilidade-cursos-ti-ead.pdf).
+Novas pastas serão adicionadas à medida que os demais módulos e desafios forem desenvolvidos.
 
-## 👩‍💻 Autoria
+## Autoria
 
-**Natasha Sophie Pereira**  
+**Natasha Sophie Pereira**
+
 Setembro de 2026
