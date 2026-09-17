@@ -76,13 +76,17 @@ modulo-02-fundamentos-bi/
 │   └── relatorio-vendas-power-bi.pbix
 ├── data/
 │   └── financial-sample.xlsx
-└── images/
-    ├── pagina-01-visao-geral-vendas.png
-    ├── pagina-02-vendas-lucro-pais.png
-    └── pagina-03-analise-geografica.png
+├── images/
+│   ├── pagina-01-visao-geral-vendas.png
+│   ├── pagina-02-vendas-lucro-pais.png
+│   └── pagina-03-analise-geografica.png
+└── presentation/
+    └── relatorio-vendas-power-bi.pptx
 ```
 
 O relatório completo pode ser baixado em [`dashboard/relatorio-vendas-power-bi.pbix`](dashboard/relatorio-vendas-power-bi.pbix).
+
+A apresentação complementar com as três páginas do relatório está disponível em [`presentation/relatorio-vendas-power-bi.pptx`](presentation/relatorio-vendas-power-bi.pptx).
 
 ## Aprendizados
 
