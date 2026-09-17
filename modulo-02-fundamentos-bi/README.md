@@ -63,7 +63,7 @@ Página desenvolvida especificamente para o desafio. Contém dois mapas de bolha
 
 ## Decisões e limitações
 
-Os visuais clássicos de mapa e mapa preenchido estavam desabilitados pelas configurações administrativas da organização. Por esse motivo, o projeto utiliza o **ArcGIS for Power BI**, que preserva a análise geográfica e o dimensionamento das bolhas.
+Devido a limitações técnicas da ferramenta, não foi possível utilizar os visuais clássicos de mapa e mapa preenchido. Por esse motivo, o projeto utiliza o **ArcGIS for Power BI**, que preserva a análise geográfica e o dimensionamento das bolhas.
 
 O segmento `Enterprise` apresenta lucro total negativo. Gráficos de pizza não representam adequadamente valores negativos, embora o segmento permaneça na legenda. No ArcGIS, os prejuízos aparecem nas dicas de ferramentas em notação contábil, entre parênteses, enquanto o tamanho das bolhas representa a magnitude do valor.
 
