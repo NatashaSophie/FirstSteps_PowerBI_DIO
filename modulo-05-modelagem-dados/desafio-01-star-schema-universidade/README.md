@@ -39,13 +39,17 @@ O diagrama relacional original não apresenta entidade de oferta acadêmica, dat
 
 **Limitação de implementação:** o modelo de origem não fornece um identificador de oferta. Em uma base real seria preciso definir a identificação das turmas/ofertas e a periodicidade para distinguir ocorrências repetidas da mesma combinação professor–disciplina–curso. Nenhuma unicidade composta de oferta foi imposta à tabela fato.
 
+## Diagrama
+
+![Star Schema — Universidade](images/modelo-star-schema.svg)
+
 ## Ferramenta e arquivos
 
 O diagrama foi desenvolvido no [dbdiagram.io](https://dbdiagram.io/), usando **DBML**. A ferramenta foi utilizada para gerar um script de criação de tabelas em **MySQL**. O SQL foi exportado, mas **não foi executado nem validado contra uma instância de banco de dados**.
 
 - [Código-fonte DBML](data/DesafioM5_01_StarSchema_Universidade.dbml) — modelo editável, atributos e relacionamentos;
 - [Script SQL para MySQL](data/DesafioM5_01_StarSchema_Universidade.sql) — DDL das tabelas, comentários e chaves estrangeiras;
-- Imagem PNG do esquema dimensional: `images/DesafioM5_01_StarSchema_Universidade.png` (arquivo de imagem a incorporar à pasta).
+- [Diagrama vetorial do esquema dimensional (SVG)](images/modelo-star-schema.svg) — visualização reproduzida a partir das tabelas e dos relacionamentos do modelo. A versão PNG original exportada do dbdiagram.io pode ser adicionada posteriormente.
 
 Para reproduzir, abra o código DBML no dbdiagram.io. O SQL pode ser usado como ponto de partida em um banco MySQL vazio; não contém dados ou comandos de inserção.
 
