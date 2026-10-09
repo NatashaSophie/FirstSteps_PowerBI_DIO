@@ -14,7 +14,7 @@ Documentar os desafios práticos da formação, as bases utilizadas, as decisõe
 | [02](modulo-02-fundamentos-bi/) | Fundamentos de Business Intelligence | Relatório interativo de vendas desenvolvido no Power BI | Concluído |
 | [03](modulo-03-visualizacao-dados-relatorios/) | Visualização de Dados e Relatórios com Power BI | Relatório gerencial de vendas e lucro publicado no Power BI Service | Concluído |
 | [04](modulo-04-processamento-dados/) | Processamento de Dados com Power BI | Integração MySQL na Azure, transformação no Power Query e relatório Company | Concluído |
-| 05 | Modelagem de Dados com Power BI | A definir | Não iniciado |
+| [05](modulo-05-modelagem-dados/) | Modelagem de Dados com Power BI | [Desafio 01: Star Schema da Universidade](modulo-05-modelagem-dados/desafio-01-star-schema-universidade/) | Desafio 01 concluído; demais desafios pendentes |
 | 06 | Data Analytics e Storytelling com Power BI | A definir | Não iniciado |
 
 ## Competências desenvolvidas
@@ -47,12 +47,17 @@ FirstSteps_PowerBI_DIO/
 │   ├── dashboard/
 │   ├── export/
 │   └── images/
-└── modulo-04-processamento-dados/
-    ├── README.md
-    ├── dashboard/
-    ├── data/
-    ├── export/
-    └── images/
+├── modulo-04-processamento-dados/
+│   ├── README.md
+│   ├── dashboard/
+│   ├── data/
+│   ├── export/
+│   └── images/
+└── modulo-05-modelagem-dados/
+    └── desafio-01-star-schema-universidade/
+        ├── README.md
+        ├── data/
+        └── images/
 ```
 
 O [Módulo 01](modulo-01-introducao-ia-agentes/) reúne o estudo exploratório sobre a viabilidade de novos cursos de graduação EAD em TI, com miniguia, coleção de prompts, fontes de pesquisa em PDF e documentação no README.
@@ -62,6 +67,8 @@ O [Módulo 02](modulo-02-fundamentos-bi/) contém o relatório interativo de ven
 O [Módulo 03](modulo-03-visualizacao-dados-relatorios/) contém o relatório gerencial de vendas e lucro, seu PBIX, PDF, imagens das duas páginas e documentação no README.
 
 O [Módulo 04](modulo-04-processamento-dados/) reúne o relatório Company, seu PBIX, scripts SQL, PDF, imagens das duas páginas e do modelo, além da documentação das transformações no Power Query.
+
+O [Desafio 01 do Módulo 05](modulo-05-modelagem-dados/desafio-01-star-schema-universidade/) documenta o Star Schema de uma universidade, com modelo editável em DBML, script SQL e diagrama vetorial, destacando as hipóteses adotadas para a dimensão temporal.
 
 Novas pastas serão adicionadas à medida que os demais módulos e desafios forem desenvolvidos.
 
