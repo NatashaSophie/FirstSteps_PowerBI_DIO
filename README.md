@@ -13,7 +13,7 @@ Documentar os desafios práticos da formação, as bases utilizadas, as decisõe
 | [01](modulo-01-introducao-ia-agentes/) | Introdução à Inteligência Artificial e Agentes | Estudo exploratório sobre a viabilidade de novos cursos de graduação EAD em TI | Concluído |
 | [02](modulo-02-fundamentos-bi/) | Fundamentos de Business Intelligence | Relatório interativo de vendas desenvolvido no Power BI | Concluído |
 | [03](modulo-03-visualizacao-dados-relatorios/) | Visualização de Dados e Relatórios com Power BI | Relatório gerencial de vendas e lucro publicado no Power BI Service | Concluído |
-| 04 | Processamento de Dados com Power BI | A definir | Não iniciado |
+| [04](modulo-04-processamento-dados/) | Processamento de Dados com Power BI | Integração MySQL na Azure, transformação no Power Query e relatório Company | Concluído |
 | 05 | Modelagem de Dados com Power BI | A definir | Não iniciado |
 | 06 | Data Analytics e Storytelling com Power BI | A definir | Não iniciado |
 
@@ -44,6 +44,8 @@ FirstSteps_PowerBI_DIO/
 ```
 
 O [Módulo 03](modulo-03-visualizacao-dados-relatorios/) contém o relatório gerencial de vendas e lucro, seu PBIX, PDF e imagens das duas páginas.
+
+O [Módulo 04](modulo-04-processamento-dados/) reúne o relatório Company, scripts SQL, PDF, imagens e documentação das transformações no Power Query.
 
 Novas pastas serão adicionadas à medida que os demais módulos e desafios forem desenvolvidos.
 

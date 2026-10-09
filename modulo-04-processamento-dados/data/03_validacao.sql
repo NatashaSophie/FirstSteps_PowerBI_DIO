@@ -1,0 +1,11 @@
+USE azure_company;
+SHOW TABLES;
+SELECT COUNT(*) AS funcionarios, SUM(Salary) AS total_salarios, AVG(Salary) AS salario_medio FROM employee;
+SELECT SUM(Hours) AS total_horas FROM works_on;
+SELECT d.Dname, COUNT(e.Ssn) AS funcionarios, SUM(e.Salary) AS salarios FROM departament d LEFT JOIN employee e ON e.Dno=d.Dnumber GROUP BY d.Dnumber,d.Dname;
+SELECT p.Pname, SUM(w.Hours) AS horas FROM project p LEFT JOIN works_on w ON w.Pno=p.Pnumber GROUP BY p.Pnumber,p.Pname ORDER BY horas DESC;
+SELECT CONCAT_WS(' ',s.Fname,s.Minit,s.Lname) AS supervisor,COUNT(*) AS subordinados_diretos FROM employee e JOIN employee s ON e.Super_ssn=s.Ssn GROUP BY s.Ssn,s.Fname,s.Minit,s.Lname;
+SELECT d.Dname,COUNT(DISTINCT l.Dlocation) AS localizacoes FROM departament d LEFT JOIN dept_locations l ON l.Dnumber=d.Dnumber GROUP BY d.Dnumber,d.Dname;
+SELECT Ssn,CONCAT_WS(' ',Fname,Minit,Lname) AS nome FROM employee WHERE Super_ssn IS NULL;
+SELECT d.Dnumber,d.Dname FROM departament d LEFT JOIN employee e ON e.Ssn=d.Mgr_ssn WHERE e.Ssn IS NULL;
+SELECT e.Ssn FROM employee e LEFT JOIN departament d ON d.Dnumber=e.Dno WHERE d.Dnumber IS NULL;
