@@ -36,16 +36,32 @@ FirstSteps_PowerBI_DIO/
 │   ├── README.md
 │   ├── docs/
 │   └── fontes/
-└── modulo-02-fundamentos-bi/
+├── modulo-02-fundamentos-bi/
+│   ├── README.md
+│   ├── dashboard/
+│   ├── data/
+│   ├── export/
+│   └── images/
+├── modulo-03-visualizacao-dados-relatorios/
+│   ├── README.md
+│   ├── dashboard/
+│   ├── export/
+│   └── images/
+└── modulo-04-processamento-dados/
     ├── README.md
     ├── dashboard/
     ├── data/
+    ├── export/
     └── images/
 ```
 
-O [Módulo 03](modulo-03-visualizacao-dados-relatorios/) contém o relatório gerencial de vendas e lucro, seu PBIX, PDF e imagens das duas páginas.
+O [Módulo 01](modulo-01-introducao-ia-agentes/) reúne o estudo exploratório sobre a viabilidade de novos cursos de graduação EAD em TI, com miniguia, coleção de prompts, fontes de pesquisa em PDF e documentação no README.
 
-O [Módulo 04](modulo-04-processamento-dados/) reúne o relatório Company, scripts SQL, PDF, imagens e documentação das transformações no Power Query.
+O [Módulo 02](modulo-02-fundamentos-bi/) contém o relatório interativo de vendas com a base Financial Sample, seu PBIX, a planilha utilizada, o PDF, imagens das três páginas e documentação no README.
+
+O [Módulo 03](modulo-03-visualizacao-dados-relatorios/) contém o relatório gerencial de vendas e lucro, seu PBIX, PDF, imagens das duas páginas e documentação no README.
+
+O [Módulo 04](modulo-04-processamento-dados/) reúne o relatório Company, seu PBIX, scripts SQL, PDF, imagens das duas páginas e do modelo, além da documentação das transformações no Power Query.
 
 Novas pastas serão adicionadas à medida que os demais módulos e desafios forem desenvolvidos.
 
