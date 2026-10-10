@@ -65,7 +65,7 @@ Total Lucro = SUM(F_Vendas[Profit])
 
 Todos os relacionamentos estão ativos.
 
-![Modelo relacional](imagens/modelo_relacional.png)
+![Modelo relacional](images/modelo_relacional.png)
 
 ### Decisão de modelagem e limitações
 
@@ -80,17 +80,17 @@ Resultados gerais:
 - **Total Vendas:** R$ 118.726.350,26 (118,73 Mi).
 - **Total Lucro:** R$ 16.893.702,26 (16,89 Mi).
 
-![Relatório de validação](imagens/validacao_modelo.png)
+![Relatório de validação](images/validacao_modelo.png)
 
 A versão PDF permite visualizar o relatório sem o Power BI Desktop; a interação com filtros requer o `.pbix`.
 
 ## Arquivos e reprodução
 
-- [Projeto editável no Power BI Desktop — DesafioM5-2.pbix](DesafioM5-2.pbix).
-- [Relatório exportado em PDF — DesafioM5-2.pdf](DesafioM5-2.pdf).
-- [Base de dados — Financial Sample.xlsx](Financial%20Sample.xlsx).
-- [Imagem do modelo relacional](imagens/modelo_relacional.png).
-- [Imagem da página de validação](imagens/validacao_modelo.png).
+- [Projeto editável no Power BI Desktop — DesafioM5-2.pbix](dashboard/DesafioM5-2.pbix).
+- [Relatório exportado em PDF — DesafioM5-2.pdf](export/DesafioM5-2.pdf).
+- [Base de dados — Financial Sample.xlsx](data/Financial%20Sample.xlsx).
+- [Imagem do modelo relacional](images/modelo_relacional.png).
+- [Imagem da página de validação](images/validacao_modelo.png).
 
 Para consultar o relatório interativo, baixe o arquivo PBIX e abra-o no **Power BI Desktop**. A página **Validação do Modelo** permite filtrar os indicadores e as vendas por produto pelo ano selecionado. O PDF e as imagens são registros estáticos e não reproduzem as interações.
 
@@ -102,10 +102,13 @@ A base Excel original está incluída para referência e reprodução das transf
 modulo-05-modelagem-dados/
 └── desafio-02-modelagem-transformacao-dax/
     ├── README.md
-    ├── DesafioM5-2.pbix
-    ├── DesafioM5-2.pdf
-    ├── Financial Sample.xlsx
-    └── imagens/
+    ├── dashboard/
+    │   └── DesafioM5-2.pbix
+    ├── data/
+    │   └── Financial Sample.xlsx
+    ├── export/
+    │   └── DesafioM5-2.pdf
+    └── images/
         ├── modelo_relacional.png
         └── validacao_modelo.png
 ```
