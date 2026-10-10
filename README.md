@@ -87,4 +87,4 @@ Novas pastas serão adicionadas à medida que os demais módulos e desafios fore
 
 **Natasha Sophie Pereira**
 
-Outubro de 2026
+Setembro a outubro de 2026
