@@ -21,6 +21,8 @@ Documentar os desafios práticos da formação, as bases utilizadas, as decisõe
 
 - aplicação de conceitos de Business Intelligence e análise de dados;
 - coleta, transformação e preparação de dados;
+- modelagem dimensional e relacional, definição de chaves, cardinalidades e filtros;
+- criação de tabelas calendário e medidas com DAX;
 - criação de relatórios interativos no Power BI;
 - seleção e configuração de visualizações;
 - uso de filtros, segmentações, indicadores e navegação;
@@ -54,9 +56,16 @@ FirstSteps_PowerBI_DIO/
 │   ├── export/
 │   └── images/
 └── modulo-05-modelagem-dados/
-    └── desafio-01-star-schema-universidade/
+    ├── README.md
+    ├── desafio-01-star-schema-universidade/
+    │   ├── README.md
+    │   ├── data/
+    │   └── images/
+    └── desafio-02-modelagem-transformacao-dax/
         ├── README.md
+        ├── dashboard/
         ├── data/
+        ├── export/
         └── images/
 ```
 
@@ -78,4 +87,4 @@ Novas pastas serão adicionadas à medida que os demais módulos e desafios fore
 
 **Natasha Sophie Pereira**
 
-Setembro de 2026
+Outubro de 2026
