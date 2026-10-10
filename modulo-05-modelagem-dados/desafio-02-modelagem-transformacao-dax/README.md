@@ -123,7 +123,3 @@ modulo-05-modelagem-dados/
 **Natasha Sophie Pereira**
 
 Outubro de 2026
-
----
-
-Projeto integrante do repositório [FirstSteps_PowerBI_DIO](https://github.com/NatashaSophie/FirstSteps_PowerBI_DIO), criado para reunir os projetos da Formação Power BI Analyst da DIO.
