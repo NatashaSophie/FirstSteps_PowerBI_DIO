@@ -14,7 +14,7 @@ Documentar os desafios práticos da formação, as bases utilizadas, as decisõe
 | [02](modulo-02-fundamentos-bi/) | Fundamentos de Business Intelligence | Relatório interativo de vendas desenvolvido no Power BI | Concluído |
 | [03](modulo-03-visualizacao-dados-relatorios/) | Visualização de Dados e Relatórios com Power BI | Relatório gerencial de vendas e lucro publicado no Power BI Service | Concluído |
 | [04](modulo-04-processamento-dados/) | Processamento de Dados com Power BI | Integração MySQL na Azure, transformação no Power Query e relatório Company | Concluído |
-| [05](modulo-05-modelagem-dados/) | Modelagem de Dados com Power BI | [Desafio 01: Star Schema da Universidade](modulo-05-modelagem-dados/desafio-01-star-schema-universidade/) | Desafio 01 concluído; demais desafios pendentes |
+| [05](modulo-05-modelagem-dados/) | Modelagem de Dados com Power BI | [Desafio 01: Star Schema da Universidade](modulo-05-modelagem-dados/desafio-01-star-schema-universidade/) e [Desafio 02: Modelagem e Transformação com DAX](modulo-05-modelagem-dados/desafio-02-modelagem-transformacao-dax/) | Desafios 01 e 02 concluídos |
 | 06 | Data Analytics e Storytelling com Power BI | A definir | Não iniciado |
 
 ## Competências desenvolvidas
@@ -69,6 +69,8 @@ O [Módulo 03](modulo-03-visualizacao-dados-relatorios/) contém o relatório ge
 O [Módulo 04](modulo-04-processamento-dados/) reúne o relatório Company, seu PBIX, scripts SQL, PDF, imagens das duas páginas e do modelo, além da documentação das transformações no Power Query.
 
 O [Desafio 01 do Módulo 05](modulo-05-modelagem-dados/desafio-01-star-schema-universidade/) documenta o Star Schema de uma universidade, com modelo editável em DBML, script SQL e diagrama vetorial, destacando as hipóteses adotadas para a dimensão temporal.
+
+O [Desafio 02 do Módulo 05](modulo-05-modelagem-dados/desafio-02-modelagem-transformacao-dax/) documenta a transformação da base Financial Sample no Power Query, a modelagem relacional, a dimensão calendário em DAX e um relatório de validação de vendas e lucro.
 
 Novas pastas serão adicionadas à medida que os demais módulos e desafios forem desenvolvidos.
 
