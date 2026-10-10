@@ -1,6 +1,10 @@
 # Desafio 02 — Modelagem e Transformação de Dados com DAX
 
-**Formação Power BI Analyst | DIO — Módulo 05**
+> **Módulo 05 — Modelagem de Dados com Power BI**
+>
+> [Voltar à Formação Power BI Analyst](../../README.md) · [Voltar ao Módulo 05](../README.md)
+
+Projeto desenvolvido para o segundo desafio do Módulo 05 da Formação Power BI Analyst da DIO, com base no conjunto de dados **Financial Sample**. A atividade envolve transformações no Power Query, modelagem de tabelas relacionadas e expressões DAX para análise e validação dos resultados.
 
 ## Objetivo
 
@@ -80,6 +84,18 @@ Resultados gerais:
 
 A versão PDF permite visualizar o relatório sem o Power BI Desktop; a interação com filtros requer o `.pbix`.
 
+## Arquivos e reprodução
+
+- [Projeto editável no Power BI Desktop — DesafioM5-2.pbix](DesafioM5-2.pbix).
+- [Relatório exportado em PDF — DesafioM5-2.pdf](DesafioM5-2.pdf).
+- [Base de dados — Financial Sample.xlsx](Financial%20Sample.xlsx).
+- [Imagem do modelo relacional](imagens/modelo_relacional.png).
+- [Imagem da página de validação](imagens/validacao_modelo.png).
+
+Para consultar o relatório interativo, baixe o arquivo PBIX e abra-o no **Power BI Desktop**. A página **Validação do Modelo** permite filtrar os indicadores e as vendas por produto pelo ano selecionado. O PDF e as imagens são registros estáticos e não reproduzem as interações.
+
+A base Excel original está incluída para referência e reprodução das transformações. Caso o Power BI solicite atualização da fonte de dados, ajuste o caminho local da planilha nas configurações de origem do Power Query.
+
 ## Estrutura dos arquivos
 
 ```text
@@ -101,6 +117,12 @@ modulo-05-modelagem-dados/
 - Dimensão calendário e medidas com DAX.
 - Validação de cardinalidades, filtros e resultados.
 - Documentação de decisões e limitações de modelagem.
+
+## Autoria
+
+**Natasha Sophie Pereira**
+
+Outubro de 2026
 
 ---
 
