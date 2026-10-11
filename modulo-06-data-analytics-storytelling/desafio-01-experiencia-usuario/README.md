@@ -105,7 +105,7 @@ As imagens são capturas estáticas das páginas finais; para testar a navegaç�
 
 ## Arquivos do projeto
 
-Os materiais são organizados conforme o padrão do Módulo 05. Após a publicação dos arquivos binários, utilize os links diretos abaixo:
+Os materiais são organizados conforme o padrão do Módulo 05. Arquivos publicados, disponíveis nos links diretos abaixo:
 
 - [Arquivo editável Power BI — DesafioM6-1.pbix](dashboard/DesafioM6-1.pbix)
 - [Relatório em PDF — DesafioM6-1.pdf](export/DesafioM6-1.pdf)
@@ -130,11 +130,11 @@ modulo-06-data-analytics-storytelling/
         └── modelo-ux.png
 ```
 
-**Nota de publicação:** os arquivos binários (PBIX, PDF e PNG) serão disponibilizados nas subpastas indicadas; confirme sua presença antes de considerar esta publicação integralmente concluída. O arquivo original da professora é incluído somente como referência e para fins educacionais, preservando a atribuição de origem.
+O arquivo original da professora é incluído somente como referência e para fins educacionais, preservando a atribuição de origem.
 
 ## Reprodução
 
-Baixe o arquivo `DesafioM6-1.pbix` da pasta `dashboard/` após sua publicação e abra-o no **Power BI Desktop**. As páginas analíticas são **Sales**, **Profit** e **Report**; **Modelo UX** documenta a proposta de identidade visual. Algumas interações, inclusive botões e indicadores, precisam ser acionadas no modo de leitura ou com **Ctrl + clique** durante a edição.
+Baixe o arquivo `DesafioM6-1.pbix` da pasta `dashboard/` e abra-o no **Power BI Desktop**. As páginas analíticas são **Sales**, **Profit** e **Report**; **Modelo UX** documenta a proposta de identidade visual. Algumas interações, inclusive botões e indicadores, precisam ser acionadas no modo de leitura ou com **Ctrl + clique** durante a edição.
 
 ## Aprendizados
 
