@@ -30,6 +30,14 @@ O arquivo Power BI contém **três páginas analíticas** e uma **página adicio
 | **Report — Relatório de Vendas Detalhado** | Evolução de vendas e lucro, matriz de lucro por trimestre e gráfico combinado de vendas e vendas brutas ao longo dos meses. |
 | **Modelo UX — Guia visual** | Paleta de cores e exemplos dos componentes estruturais usados no redesenho. Trata-se de uma página de apoio, não de uma quarta página analítica exigida pelo enunciado. |
 
+### Por que incluir a página Modelo UX?
+
+A página **Modelo UX** foi acrescentada por iniciativa da autora como um **guia visual de apoio ao projeto**. Ela reúne a paleta de cores e exemplos dos componentes estruturais utilizados no redesenho, registrando o padrão que orientou a organização das páginas analíticas.
+
+Seu objetivo é tornar as escolhas de design mais fáceis de consultar e compreender, apoiar a manutenção da identidade visual e facilitar a reutilização desse padrão em futuras páginas ou relatórios. Assim, o próprio arquivo PBIX também documenta parte do processo de melhoria da experiência do usuário.
+
+Essa página é um **complemento opcional e não faz parte diretamente das entregas exigidas pelo desafio**. O atendimento ao enunciado está nas melhorias aplicadas às três páginas analíticas — **Sales, Profit e Report**. O Modelo UX não acrescenta uma nova análise financeira nem substitui essas páginas; sua contribuição é documentar a solução visual desenvolvida.
+
 ### Decisões de UX e de identidade visual
 
 Foi criado um padrão visual reutilizável para as páginas: **barra lateral contínua**, canto superior em azul mais claro com o logotipo DIO, **cabeçalho branco**, título alinhado à esquerda e menus verticais de navegação. O botão da página ativa recebe destaque em turquesa, enquanto as setas inferiores ajudam a comunicar a sequência entre páginas.
