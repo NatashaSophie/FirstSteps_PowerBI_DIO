@@ -15,7 +15,7 @@ Documentar os desafios práticos da formação, as bases utilizadas, as decisõe
 | [03](modulo-03-visualizacao-dados-relatorios/) | Visualização de Dados e Relatórios com Power BI | Relatório gerencial de vendas e lucro publicado no Power BI Service | Concluído |
 | [04](modulo-04-processamento-dados/) | Processamento de Dados com Power BI | Integração MySQL na Azure, transformação no Power Query e relatório Company | Concluído |
 | [05](modulo-05-modelagem-dados/) | Modelagem de Dados com Power BI | [Desafio 01: Star Schema da Universidade](modulo-05-modelagem-dados/desafio-01-star-schema-universidade/) e [Desafio 02: Modelagem e Transformação com DAX](modulo-05-modelagem-dados/desafio-02-modelagem-transformacao-dax/) | Desafios 01 e 02 concluídos |
-| 06 | Data Analytics e Storytelling com Power BI | A definir | Não iniciado |
+| [06](modulo-06-data-analytics-storytelling/) | Data Analytics e Storytelling com Power BI | [Desafio 01: Atualizando Relatório Financeiro com Foco na Experiência do Usuário](modulo-06-data-analytics-storytelling/desafio-01-experiencia-usuario/) · Desafio 02 a desenvolver | Desafio 01 desenvolvido; arquivos em publicação |
 
 ## Competências desenvolvidas
 
@@ -55,7 +55,7 @@ FirstSteps_PowerBI_DIO/
 │   ├── data/
 │   ├── export/
 │   └── images/
-└── modulo-05-modelagem-dados/
+├── modulo-05-modelagem-dados/
     ├── README.md
     ├── desafio-01-star-schema-universidade/
     │   ├── README.md
@@ -65,6 +65,13 @@ FirstSteps_PowerBI_DIO/
         ├── README.md
         ├── dashboard/
         ├── data/
+        ├── export/
+        └── images/
+└── modulo-06-data-analytics-storytelling/
+    ├── README.md
+    └── desafio-01-experiencia-usuario/
+        ├── README.md
+        ├── dashboard/
         ├── export/
         └── images/
 ```
@@ -80,6 +87,8 @@ O [Módulo 04](modulo-04-processamento-dados/) reúne o relatório Company, seu 
 O [Desafio 01 do Módulo 05](modulo-05-modelagem-dados/desafio-01-star-schema-universidade/) documenta o Star Schema de uma universidade, com modelo editável em DBML, script SQL e diagrama vetorial, destacando as hipóteses adotadas para a dimensão temporal.
 
 O [Desafio 02 do Módulo 05](modulo-05-modelagem-dados/desafio-02-modelagem-transformacao-dax/) documenta a transformação da base Financial Sample no Power Query, a modelagem relacional, a dimensão calendário em DAX e um relatório de validação de vendas e lucro.
+
+O [Desafio 01 do Módulo 06](modulo-06-data-analytics-storytelling/desafio-01-experiencia-usuario/) documenta o redesign de um relatório financeiro com foco em UX: identidade visual, menus, indicadores, filtros, navegação e quatro páginas, incluindo uma página auxiliar de guia visual. O segundo desafio será incluído em pasta própria.
 
 Novas pastas serão adicionadas à medida que os demais módulos e desafios forem desenvolvidos.
 
