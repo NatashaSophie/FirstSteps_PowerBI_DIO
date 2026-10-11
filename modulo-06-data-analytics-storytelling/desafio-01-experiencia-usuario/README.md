@@ -75,9 +75,35 @@ No redesenho, foram preservados e aprimorados recursos como cartões, gráficos 
 - O botão de **limpar segmentações** atua sobre os segmentadores configurados; seleções feitas diretamente em gráficos ou matrizes têm comportamento próprio.
 - O PDF e as imagens preservam a aparência das páginas, mas **não reproduzem as interações** do Power BI Desktop.
 
+## Prévia das páginas
+
+### Sales — Relatório de Vendas
+
+![Página Sales — relatório de vendas](images/sales.png)
+
+### Profit — Relatório de Lucro Detalhado
+
+![Página Profit — análise de lucro](images/profit.png)
+
+### Report — Relatório de Vendas Detalhado
+
+![Página Report — vendas, lucro e vendas brutas](images/report.png)
+
+### Modelo UX — Guia visual
+
+![Página Modelo UX — paleta de cores](images/modelo-ux.png)
+
+As imagens são capturas estáticas das páginas finais; para testar a navegação e os filtros, utilize o PBIX.
+
 ## Arquivos do projeto
 
-A estrutura planejada segue o padrão do Módulo 05:
+Os materiais são organizados conforme o padrão do Módulo 05. Após a publicação dos arquivos binários, utilize os links diretos abaixo:
+
+- [Arquivo editável Power BI — DesafioM6-1.pbix](dashboard/DesafioM6-1.pbix)
+- [Relatório em PDF — DesafioM6-1.pdf](export/DesafioM6-1.pdf)
+- [Relatório original de referência da professora — PBIX](dashboard/relatorio-original-professora.pbix)
+
+A estrutura é:
 
 ```text
 modulo-06-data-analytics-storytelling/
