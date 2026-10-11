@@ -134,7 +134,7 @@ modulo-06-data-analytics-storytelling/
         └── detalhes.png
 ```
 
-**Nota de publicação:** os dois arquivos PBIX e o PDF já estão publicados nas pastas correspondentes. As três imagens PNG ainda precisam ser enviadas para `images/` para que as prévias sejam exibidas neste README. A referência da professora é incluída exclusivamente com finalidade educacional e identificação da origem.
+**Arquivos publicados:** o relatório editável, o PBIX de referência, o PDF e as três capturas de tela estão organizados nas pastas correspondentes. O arquivo da professora é incluído exclusivamente com finalidade educacional e identificação da origem.
 
 ## Reprodução e aprendizados
 

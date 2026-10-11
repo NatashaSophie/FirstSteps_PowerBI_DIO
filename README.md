@@ -15,7 +15,7 @@ Documentar os desafios práticos da formação, as bases utilizadas, as decisõe
 | [03](modulo-03-visualizacao-dados-relatorios/) | Visualização de Dados e Relatórios com Power BI | Relatório gerencial de vendas e lucro publicado no Power BI Service | Concluído |
 | [04](modulo-04-processamento-dados/) | Processamento de Dados com Power BI | Integração MySQL na Azure, transformação no Power Query e relatório Company | Concluído |
 | [05](modulo-05-modelagem-dados/) | Modelagem de Dados com Power BI | [Desafio 01: Star Schema da Universidade](modulo-05-modelagem-dados/desafio-01-star-schema-universidade/) e [Desafio 02: Modelagem e Transformação com DAX](modulo-05-modelagem-dados/desafio-02-modelagem-transformacao-dax/) | Desafios 01 e 02 concluídos |
-| [06](modulo-06-data-analytics-storytelling/) | Data Analytics e Storytelling com Power BI | [Desafio 01: Atualizando Relatório Financeiro com Foco na Experiência do Usuário](modulo-06-data-analytics-storytelling/desafio-01-experiencia-usuario/)  · [Desafio 02: Vendas e Lucros com Data Analytics](modulo-06-data-analytics-storytelling/desafio-02-data-analytics-vendas-lucros/) | Desafio 01 concluído; Desafio 02 desenvolvido, arquivos em publicação |
+| [06](modulo-06-data-analytics-storytelling/) | Data Analytics e Storytelling com Power BI | [Desafio 01: Atualizando Relatório Financeiro com Foco na Experiência do Usuário](modulo-06-data-analytics-storytelling/desafio-01-experiencia-usuario/) e [Desafio 02: Vendas e Lucros com Data Analytics](modulo-06-data-analytics-storytelling/desafio-02-data-analytics-vendas-lucros/) | Desafios 01 e 02 concluídos |
 
 ## Competências desenvolvidas
 
@@ -77,8 +77,14 @@ FirstSteps_PowerBI_DIO/
     └── desafio-02-data-analytics-vendas-lucros/
         ├── README.md
         ├── dashboard/
+        │   ├── DesafioM6-2.pbix
+        │   └── sales_report_desafio_projeto.pbix
         ├── export/
+        │   └── DesafioM6-2.pdf
         └── images/
+            ├── home.png
+            ├── principal.png
+            └── detalhes.png
 ```
 
 O [Módulo 01](modulo-01-introducao-ia-agentes/) reúne o estudo exploratório sobre a viabilidade de novos cursos de graduação EAD em TI, com miniguia, coleção de prompts, fontes de pesquisa em PDF e documentação no README.
@@ -93,9 +99,17 @@ O [Desafio 01 do Módulo 05](modulo-05-modelagem-dados/desafio-01-star-schema-un
 
 O [Desafio 02 do Módulo 05](modulo-05-modelagem-dados/desafio-02-modelagem-transformacao-dax/) documenta a transformação da base Financial Sample no Power Query, a modelagem relacional, a dimensão calendário em DAX e um relatório de validação de vendas e lucro.
 
-O [Desafio 01 do Módulo 06](modulo-06-data-analytics-storytelling/desafio-01-experiencia-usuario/) documenta o redesign de um relatório financeiro com foco em UX: identidade visual, menus, indicadores, filtros, navegação e quatro páginas, incluindo uma página auxiliar de guia visual. O [Desafio 02 do Módulo 06](modulo-06-data-analytics-storytelling/desafio-02-data-analytics-vendas-lucros/) amplia o relatório financeiro com Top N, dispersão, compartimentos, agrupamento por segmento e indicação de clusters de lucro.
+O [Desafio 01 do Módulo 06](modulo-06-data-analytics-storytelling/desafio-01-experiencia-usuario/) documenta o redesign de um relatório financeiro com foco em UX: identidade visual, menus, indicadores, filtros, navegação e quatro páginas, incluindo uma página auxiliar de guia visual.
 
-Novas pastas serão adicionadas à medida que os demais módulos e desafios forem desenvolvidos.
+O [Desafio 02 do Módulo 06](modulo-06-data-analytics-storytelling/desafio-02-data-analytics-vendas-lucros/) amplia o relatório financeiro com Top N, dispersão, compartimentos, agrupamento por segmento e indicação de clusters de lucro.
+
+## Considerações Finais
+
+A conclusão do **Desafio 02 do Módulo 06** encerra o percurso de **Primeiros Passos em Power BI** documentado neste repositório. Ao longo dos seis módulos, os projetos evoluíram da exploração inicial de Inteligência Artificial e fundamentos de BI para a preparação e transformação de dados, modelagem, criação de medidas DAX e elaboração de relatórios interativos.
+
+Os desafios finais consolidam uma aprendizagem importante: um relatório não se resume à construção de gráficos. É necessário selecionar indicadores relevantes, compreender a granularidade e as limitações dos dados, estruturar uma navegação intuitiva e comunicar resultados de maneira clara. A documentação dos arquivos editáveis, das exportações e das decisões de desenvolvimento permite revisitar cada etapa do processo.
+
+Este repositório permanece como **portfólio dos projetos concluídos na formação**, reunindo os resultados práticos, os aprendizados e os pontos de atenção identificados durante o curso.
 
 ## Autoria
 
