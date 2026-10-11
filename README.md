@@ -77,14 +77,8 @@ FirstSteps_PowerBI_DIO/
     └── desafio-02-data-analytics-vendas-lucros/
         ├── README.md
         ├── dashboard/
-        │   ├── DesafioM6-2.pbix
-        │   └── sales_report_desafio_projeto.pbix
         ├── export/
-        │   └── DesafioM6-2.pdf
         └── images/
-            ├── home.png
-            ├── principal.png
-            └── detalhes.png
 ```
 
 O [Módulo 01](modulo-01-introducao-ia-agentes/) reúne o estudo exploratório sobre a viabilidade de novos cursos de graduação EAD em TI, com miniguia, coleção de prompts, fontes de pesquisa em PDF e documentação no README.
