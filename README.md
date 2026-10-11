@@ -56,17 +56,17 @@ FirstSteps_PowerBI_DIO/
 │   ├── export/
 │   └── images/
 ├── modulo-05-modelagem-dados/
-    ├── README.md
-    ├── desafio-01-star-schema-universidade/
-    │   ├── README.md
-    │   ├── data/
-    │   └── images/
-    └── desafio-02-modelagem-transformacao-dax/
-        ├── README.md
-        ├── dashboard/
-        ├── data/
-        ├── export/
-        └── images/
+│   ├── README.md
+│   ├── desafio-01-star-schema-universidade/
+│   │   ├── README.md
+│   │   ├── data/
+│   │   └── images/
+│   └── desafio-02-modelagem-transformacao-dax/
+│       ├── README.md
+│       ├── dashboard/
+│       ├── data/
+│       ├── export/
+│       └── images/
 └── modulo-06-data-analytics-storytelling/
     ├── README.md
     └── desafio-01-experiencia-usuario/
